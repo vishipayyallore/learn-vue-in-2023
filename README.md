@@ -30,6 +30,7 @@ module.exports = defineConfig({
 ## For Testing with `jest`
 
 ```
-npm i -D jest@^26.6.3 @testing-library/vue
+npm i -D jest@26.6.3 @testing-library/vue
 npm i -D vue-jest@next @vue/test-utils@next
+npm i -D babel-jest@26.6.3
 ```
