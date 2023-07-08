@@ -1,21 +1,25 @@
 <template>
-    <h2>Name: {{ getName() }} | {{ getName("Sri Vari") }}</h2>
+    <h3>Name: {{ getName() }} | {{ getName("Sri Vari") }}</h3>
 </template>
 <script>
 export default {
     name: "A3MethodsParameters",
     data: function () {
         return {
-            getName: function (name) {
-                return name || "Srivaru";
-            },
+            email: "srivaru@god.com",
+            mobile: "1234567890",
         };
+    },
+    methods: {
+        getName: function (name) {
+            return name || "Srivaru";
+        },
     },
 };
 </script>
 
 <style scoped>
-h2 {
+h3 {
     color: rgb(52, 225, 4);
 }
 </style>

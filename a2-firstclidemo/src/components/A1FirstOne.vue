@@ -1,5 +1,5 @@
 <template>
-    <h1>A1FirstOne Component</h1>
+    <h3>A1FirstOne Component</h3>
 </template>
 <script>
 export default {
@@ -8,7 +8,7 @@ export default {
 </script>
 
 <style scoped>
-h1 {
+h3 {
     color: rgb(7, 94, 160);
 }
 </style>
