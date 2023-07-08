@@ -1,12 +1,12 @@
 <template>
-    <h2>SecondOne {{ email }} | {{ mobile }} | {{ 10 + 10 }} | {{ "Hello World".length }}</h2>
+    <h2>A2Interpolation {{ email }} | {{ mobile }} | {{ 10 + 10 }} | {{ "Hello World".length }}</h2>
     <h2>Name: {{ getName() }} | {{ getName("Sri Vari") }}</h2>
     <h2>Changing Value {{ mobile = 9010050445 }} </h2>
     <h2>Boolean {{ mobile == 9010050445 }} </h2>
 </template>
 <script>
 export default {
-    name: "SecondOne",
+    name: "A2Interpolation",
     data: function () {
         return {
             email: "srivaru@god.com",

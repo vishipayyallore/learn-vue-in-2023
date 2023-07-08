@@ -2,20 +2,20 @@
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Welcome to first Vue.js App" />
   <FirstOne />
-  <SecondOne />
+  <A2Interpolation />
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import FirstOne from "./components/FirstOne.vue";
-import SecondOne from "./components/SecondOne.vue";
+import A2Interpolation from "./components/A2Interpolation.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
     FirstOne,
-    SecondOne,
+    A2Interpolation,
   },
 };
 </script>
