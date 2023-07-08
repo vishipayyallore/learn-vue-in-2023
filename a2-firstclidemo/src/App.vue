@@ -2,17 +2,20 @@
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Welcome to first Vue.js App" />
   <FirstOne />
+  <SecondOne />
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import FirstOne from "./components/FirstOne.vue";
+import SecondOne from "./components/SecondOne.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
-    FirstOne
+    FirstOne,
+    SecondOne,
   },
 };
 </script>
