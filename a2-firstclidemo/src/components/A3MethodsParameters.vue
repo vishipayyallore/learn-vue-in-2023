@@ -1,5 +1,6 @@
 <template>
     <h3>Name: {{ getName() }} | {{ getName("Sri Vari") }}</h3>
+    <h3>{{ getData() }} {{ getData().Email }} {{ getData().Mobile }}</h3>
 </template>
 <script>
 export default {
@@ -14,6 +15,13 @@ export default {
         getName: function (name) {
             return name || "Srivaru";
         },
+
+        getData() {
+            return {
+                Email: this.email,
+                Mobile: this.mobile,
+            }
+        }
     },
 };
 </script>
