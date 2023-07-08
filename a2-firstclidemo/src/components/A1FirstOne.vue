@@ -1,9 +1,9 @@
 <template>
-    <h1>FirstOne Component</h1>
+    <h1>A1FirstOne Component</h1>
 </template>
 <script>
 export default {
-    name: "FirstOne",
+    name: "A1FirstOne",
 };
 </script>
 
