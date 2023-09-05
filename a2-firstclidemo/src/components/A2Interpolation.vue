@@ -4,6 +4,7 @@
     <h3>Changing Value {{ mobile = 9010050445 }} </h3>
     <h3>Boolean {{ mobile == 9010050445 }} </h3>
 </template>
+
 <script>
 export default {
     name: "A2Interpolation",
