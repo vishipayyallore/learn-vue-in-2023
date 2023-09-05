@@ -6,6 +6,7 @@ I am learning Vue from different sources (Books, Web Sites, Video Courses, etc.)
 
 ```bash
 npm install -g @vue/cli
+npm i -g @vue/cli
 
 vue create a1-firstclidemo
 ```
