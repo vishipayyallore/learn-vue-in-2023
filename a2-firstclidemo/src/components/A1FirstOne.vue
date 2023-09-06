@@ -1,6 +1,7 @@
 <template>
     <h3>A1FirstOne Component</h3>
 </template>
+
 <script>
 export default {
     name: "A1FirstOne",

@@ -2,6 +2,7 @@
     <h3>Name: {{ getName() }} | {{ getName("Sri Vari") }}</h3>
     <h3>{{ getData() }} {{ getData().Email }} {{ getData().Mobile }}</h3>
 </template>
+
 <script>
 export default {
     name: "A3MethodsParameters",

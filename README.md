@@ -6,6 +6,7 @@ I am learning Vue from different sources (Books, Web Sites, Video Courses, etc.)
 
 ```bash
 npm install -g @vue/cli
+npm i -g @vue/cli
 
 vue create a1-firstclidemo
 ```
@@ -25,14 +26,13 @@ vue create a1-firstclidemo
 ### **Method 2**
 
 ```js
-const { defineConfig } = require('@vue/cli-service')
+const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
   transpileDependencies: true,
   devServer: {
-    port: 8093
-  }
-})
-
+    port: 8093,
+  },
+});
 ```
 
 ## For Testing with `jest`
