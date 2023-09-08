@@ -2,6 +2,7 @@
     <h2>A4EventsParameters</h2>
     <h3>Name: {{ getName() }} | {{ getName("Sri Vari") }}</h3>
     <h3>{{ getData() }} {{ getData().Email }} {{ getData().Mobile }}</h3>
+    <button v-on:click="getData()">Get Data</button>
 </template>
 
 <script>
@@ -19,6 +20,7 @@ export default {
         },
 
         getData() {
+            console.log("getData called ...(A4EventsParameters.vue)");
             return {
                 Email: this.email,
                 Mobile: this.mobile,
