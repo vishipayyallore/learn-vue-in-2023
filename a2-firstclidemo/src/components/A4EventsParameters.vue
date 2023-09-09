@@ -1,12 +1,13 @@
 <template>
-    <h2>A3MethodsParameters</h2>
+    <h2>A4EventsParameters</h2>
     <h3>Name: {{ getName() }} | {{ getName("Sri Vari") }}</h3>
     <h3>{{ getData() }} {{ getData().Email }} {{ getData().Mobile }}</h3>
+    <button v-on:click="getData()">Get Data</button>
 </template>
 
 <script>
 export default {
-    name: "A3MethodsParameters",
+    name: "A4EventsParameters",
     data: function () {
         return {
             email: "srivaru@god.com",
@@ -19,6 +20,7 @@ export default {
         },
 
         getData() {
+            console.log("getData called ...(A4EventsParameters.vue)");
             return {
                 Email: this.email,
                 Mobile: this.mobile,
@@ -30,6 +32,6 @@ export default {
 
 <style scoped>
 h3 {
-    color: rgb(52, 225, 4);
+    color: rgb(187, 190, 2);
 }
 </style>
