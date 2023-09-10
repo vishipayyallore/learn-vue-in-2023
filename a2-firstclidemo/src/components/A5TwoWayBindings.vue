@@ -29,7 +29,7 @@ h3 {
 .custom-button {
     background-color: #007bff;
     color: #fff;
-    border: 2px solid #01376f;
+    border: 1px solid #01376f;
     /* Add a border with color #01376f */
     padding: 10px 20px;
     cursor: pointer;
@@ -40,5 +40,12 @@ h3 {
     /* Add a box shadow */
     font-weight: bold;
     /* Make the text bold */
+    transition: background-color 0.3s;
+    /* Add transition for smooth color change */
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+    /* Change background color on hover */
 }
 </style>
