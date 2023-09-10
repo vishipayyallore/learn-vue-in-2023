@@ -79,6 +79,7 @@ h3 {
     border-radius: 10px;
     /* Add rounded corners */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #360040;
     /* Add a box shadow */
     padding: 20px;
     /* Add padding for center alignment */
