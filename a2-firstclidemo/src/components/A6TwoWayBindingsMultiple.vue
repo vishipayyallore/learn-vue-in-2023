@@ -1,16 +1,24 @@
 <template>
-    <h2>A5 Two Way Bindings Component</h2>
-    <input type="text" v-model="count" placeholder="Add the Number" />
-    <h3>Count: {{ count }}</h3>
+    <h2>A6 Two Way Bindings to Multiple Input boxes Component</h2>
+    <label for="circket">Circket</label>
+    <input type="checkbox" name="" id="" />
+
+    <label for="circket">Football</label>
+    <input type="checkbox" name="" id="" />
+
+    <label for="circket">Hockey</label>
+    <input type="checkbox" name="" id="" />
+
+    <h3>Name: {{ name }}</h3>
     <button v-on:click="addNumberToCount()" class="custom-button">Count ++</button>
 </template>
 
 <script>
 export default {
-    name: "A5TwoWayBindings",
+    name: "A6TwoWayBindingsMultiple",
     data: function () {
         return {
-            count: 0,
+            name: "No Name",
         };
     },
     methods: {
