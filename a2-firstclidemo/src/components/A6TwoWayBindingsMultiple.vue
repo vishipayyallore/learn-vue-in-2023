@@ -1,15 +1,15 @@
 <template>
     <h2>A6 Two Way Bindings to Multiple Input boxes Component</h2>
-    <label for="circket">Circket</label>
-    <input type="checkbox" name="" id="" />
+    <label for="">Circket</label>
+    <input type="checkbox" value="Cricket" v-model="sports" id="" />
 
-    <label for="circket">Football</label>
-    <input type="checkbox" name="" id="" />
+    <label for="">Football</label>
+    <input type="checkbox" value="Football" v-model="sports" id="" />
 
-    <label for="circket">Hockey</label>
-    <input type="checkbox" name="" id="" />
+    <label for="">Hockey</label>
+    <input type="checkbox" value="Hockey" v-model="sports" id="" />
 
-    <h3>Name: {{ name }}</h3>
+    <h3>Selected Sports: {{ sports }}</h3>
     <button v-on:click="addNumberToCount()" class="custom-button">Count ++</button>
 </template>
 
@@ -18,7 +18,7 @@ export default {
     name: "A6TwoWayBindingsMultiple",
     data: function () {
         return {
-            name: "No Name",
+            sports: [],
         };
     },
     methods: {
