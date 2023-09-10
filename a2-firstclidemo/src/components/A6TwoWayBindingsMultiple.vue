@@ -25,13 +25,13 @@
         <h2 class="h2-player">Select your favorite Player</h2>
 
         <label class="radio-label">
-            Smith
             <input type="radio" value="Smith" v-model="player" name="player" />
+            <span class="radio-text">Smith</span>
         </label>
 
         <label class="radio-label">
-            Finch
             <input type="radio" value="Finch" v-model="player" name="player" />
+            <span class="radio-text">Finch</span>
         </label>
     </div>
 
@@ -40,7 +40,7 @@
         <h3>Selected Player: {{ player }}</h3>
     </div>
 </template>
-
+  
 <script>
 export default {
     name: "A6TwoWayBindingsMultiple",
@@ -52,7 +52,7 @@ export default {
     },
 };
 </script>
-
+  
 <style scoped>
 h3 {
     color: #a5a803;
@@ -110,11 +110,7 @@ h3 {
 }
 
 /* Style for the checkbox and radio text */
-.checkbox-text {
-    color: #007bff;
-    /* Text color for the labels */
-}
-
+.checkbox-text,
 .radio-text {
     color: #007bff;
     /* Text color for the labels */
@@ -127,3 +123,4 @@ h3 {
     /* Change text color when checked */
 }
 </style>
+  
