@@ -3,6 +3,8 @@
     <h3>Name: {{ getName() }} | {{ getName("Sri Vari") }}</h3>
     <h3>{{ getData() }} {{ getData().Email }} {{ getData().Mobile }}</h3>
     <button v-on:click="getData()">Get Data</button>
+
+    <button v-on:click="greetUser('Sri Varu')">Greet User</button>
 </template>
 
 <script>
@@ -25,7 +27,11 @@ export default {
                 Email: this.email,
                 Mobile: this.mobile,
             }
-        }
+        },
+
+        greetUser(userName) {
+            console.log(`greetUser() called ...(A4EventsParameters.vue). Hello ${userName}`);
+        },
     },
 };
 </script>
