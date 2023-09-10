@@ -2,7 +2,7 @@
     <h2>A5 Two Way Bindings Component</h2>
     <input type="text" v-model="count" placeholder="Add the Number" />
     <h3>Count: {{ count }}</h3>
-    <button v-on:click="addNumberToCount()">Count ++</button>
+    <button v-on:click="addNumberToCount()" class="custom-button">Count ++</button>
 </template>
 
 <script>
@@ -27,25 +27,25 @@ h3 {
 }
 
 .custom-button {
-    background-color: #007bff;
+    background-color: #d900ff;
     color: #fff;
-    border: 1px solid #01376f;
-    /* Add a border with color #01376f */
+    border: 1px solid #7f0195;
     padding: 10px 20px;
     cursor: pointer;
     margin-right: 10px;
     border-radius: 5px;
-    /* Add rounded corners */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    /* Add a box shadow */
     font-weight: bold;
-    /* Make the text bold */
-    transition: background-color 0.3s;
-    /* Add transition for smooth color change */
+    transition: background-color 0.3s, transform 0.1s;
+    /* Add transition for color and transform */
 }
 
 .custom-button:hover {
-    background-color: #0056b3;
-    /* Change background color on hover */
+    background-color: #b62ccf;
+}
+
+.custom-button:active {
+    transform: translateY(2px);
+    /* Add a slight push effect on click */
 }
 </style>
