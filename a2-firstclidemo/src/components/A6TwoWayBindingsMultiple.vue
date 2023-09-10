@@ -1,39 +1,43 @@
 <template>
     <h2>A6 Two Way Bindings to Multiple Input boxes Component</h2>
 
-    <div class="checkbox-container">
-        <h2 class="h2-sports">Select your favorite Sports</h2>
-        <div class="checkbox-row">
-            <label class="checkbox-label">
-                <input type="checkbox" value="Cricket" v-model="sports" />
-                <span class="checkbox-text">Cricket</span>
-            </label>
+    <div class="container">
 
-            <label class="checkbox-label">
-                <input type="checkbox" value="Football" v-model="sports" />
-                <span class="checkbox-text">Football</span>
-            </label>
 
-            <label class="checkbox-label">
-                <input type="checkbox" value="Hockey" v-model="sports" />
-                <span class="checkbox-text">Hockey</span>
-            </label>
+        <div class="checkbox-container">
+            <h2 class="h2-sports">Select your favorite Sports</h2>
+            <div class="checkbox-row">
+                <label class="checkbox-label">
+                    <input type="checkbox" value="Cricket" v-model="sports" />
+                    <span class="checkbox-text">Cricket</span>
+                </label>
+
+                <label class="checkbox-label">
+                    <input type="checkbox" value="Football" v-model="sports" />
+                    <span class="checkbox-text">Football</span>
+                </label>
+
+                <label class="checkbox-label">
+                    <input type="checkbox" value="Hockey" v-model="sports" />
+                    <span class="checkbox-text">Hockey</span>
+                </label>
+            </div>
         </div>
-    </div>
 
-    <div class="checkbox-container">
-        <h2 class="h2-player">Select your favorite Player</h2>
+        <div class="checkbox-container">
+            <h2 class="h2-player">Select your favorite Player</h2>
 
-        <div class="radio-row">
-            <label class="radio-label">
-                <input type="radio" value="Smith" v-model="player" name="player" />
-                <span class="radio-text">Smith</span>
-            </label>
+            <div class="radio-row">
+                <label class="radio-label">
+                    <input type="radio" value="Smith" v-model="player" name="player" />
+                    <span class="radio-text">Smith</span>
+                </label>
 
-            <label class="radio-label">
-                <input type="radio" value="Finch" v-model="player" name="player" />
-                <span class="radio-text">Finch</span>
-            </label>
+                <label class="radio-label">
+                    <input type="radio" value="Finch" v-model="player" name="player" />
+                    <span class="radio-text">Finch</span>
+                </label>
+            </div>
         </div>
     </div>
 
@@ -81,7 +85,7 @@ h3 {
     text-align: center;
     /* Center align the contents */
     margin-bottom: 10px;
-    width: 36%;
+    width: 47%;
 }
 
 /* Style for the row of checkboxes and radio buttons */
@@ -123,6 +127,13 @@ h3 {
 .radio-label input[type="radio"]:checked+.radio-text {
     color: #4caf50;
     /* Change text color when checked */
+}
+
+/* Add styles for the container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* Place the child divs side by side */
 }
 </style>
   
