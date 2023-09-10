@@ -23,13 +23,13 @@ export default {
 
 <style scoped>
 h3 {
-    color: #7f0195;
+    color: #a5a803;
 }
 
 .custom-button {
-    background-color: #d900ff;
+    background-color: #d7da21;
     color: #fff;
-    border: 1px solid #7f0195;
+    border: 1px solid #a5a803;
     padding: 10px 20px;
     cursor: pointer;
     margin-right: 10px;
@@ -41,7 +41,7 @@ h3 {
 }
 
 .custom-button:hover {
-    background-color: #b62ccf;
+    background-color: #bcbe10;
 }
 
 .custom-button:active {
