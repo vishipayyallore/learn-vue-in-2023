@@ -24,15 +24,17 @@
     <div class="checkbox-container">
         <h2 class="h2-player">Select your favorite Player</h2>
 
-        <label class="radio-label">
-            <input type="radio" value="Smith" v-model="player" name="player" />
-            <span class="radio-text">Smith</span>
-        </label>
+        <div class="radio-row">
+            <label class="radio-label">
+                <input type="radio" value="Smith" v-model="player" name="player" />
+                <span class="radio-text">Smith</span>
+            </label>
 
-        <label class="radio-label">
-            <input type="radio" value="Finch" v-model="player" name="player" />
-            <span class="radio-text">Finch</span>
-        </label>
+            <label class="radio-label">
+                <input type="radio" value="Finch" v-model="player" name="player" />
+                <span class="radio-text">Finch</span>
+            </label>
+        </div>
     </div>
 
     <div>
