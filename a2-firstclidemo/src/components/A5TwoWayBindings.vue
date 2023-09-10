@@ -25,4 +25,20 @@ export default {
 h3 {
     color: rgb(143, 2, 143);
 }
+
+.custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #01376f;
+    /* Add a border with color #01376f */
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+    /* Add rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Add a box shadow */
+    font-weight: bold;
+    /* Make the text bold */
+}
 </style>
