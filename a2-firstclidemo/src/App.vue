@@ -1,6 +1,7 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <HelloWorld msg="Welcome to first Vue.js App" />
+  <A6TwoWayBindingsMultiple />
   <A5TwoWayBindings />
   <A4EventsParameters />
   <A3MethodsParameters />
@@ -15,6 +16,7 @@ import A2Interpolation from "./components/A2Interpolation.vue";
 import A3MethodsParameters from "./components/A3MethodsParameters.vue";
 import A4EventsParameters from "./components/A4EventsParameters.vue";
 import A5TwoWayBindings from "./components/A5TwoWayBindings.vue";
+import A6TwoWayBindingsMultiple from "./components/A6TwoWayBindingsMultiple.vue";
 
 export default {
   name: "App",
@@ -25,6 +27,7 @@ export default {
     A3MethodsParameters,
     A4EventsParameters,
     A5TwoWayBindings,
+    A6TwoWayBindingsMultiple,
   },
 };
 </script>
