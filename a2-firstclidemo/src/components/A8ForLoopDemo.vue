@@ -1,6 +1,11 @@
 <template>
     <div id="divstyles">
         <h1>For Loop Demo</h1>
+        <ul>
+            <li v-for="technology in technologies" :key="technology">
+                {{ technology }}
+            </li>
+        </ul>
     </div>
 </template>
   
@@ -9,8 +14,7 @@ export default {
     name: 'A8ForLoopDemo',
     data() {
         return {
-            display: true,
-            show: true
+            technologies: ["PHP", "JavaScript", "C++", "C-sharp"],
         }
     }
 }
