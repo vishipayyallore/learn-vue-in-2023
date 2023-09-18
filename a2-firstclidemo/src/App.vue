@@ -1,6 +1,7 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <HelloWorld msg="Welcome to first Vue.js App" />
+  <A7IfElseDemo />
   <A6TwoWayBindingsMultiple />
   <A5TwoWayBindings />
   <A4EventsParameters />
@@ -17,6 +18,7 @@ import A3MethodsParameters from "./components/A3MethodsParameters.vue";
 import A4EventsParameters from "./components/A4EventsParameters.vue";
 import A5TwoWayBindings from "./components/A5TwoWayBindings.vue";
 import A6TwoWayBindingsMultiple from "./components/A6TwoWayBindingsMultiple.vue";
+import A7IfElseDemo from "./components/A7IfElseDemo.vue";
 
 export default {
   name: "App",
@@ -28,6 +30,7 @@ export default {
     A4EventsParameters,
     A5TwoWayBindings,
     A6TwoWayBindingsMultiple,
+    A7IfElseDemo,
   },
 };
 </script>
