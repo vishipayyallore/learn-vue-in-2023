@@ -8,9 +8,8 @@
         </ul>
         <br />
         <ul>
-            <li v-for="data in user" :key="data">Name is : {{ data.name }}</li>
-            <li v-for="data in user" :key="data">Email is : {{ data.email }}</li>
-            <li v-for="data in user" :key="data">contact is : {{ data.contact }}</li>
+            <li v-for="data in user" :key="data">Name: {{ data.name }} :: Email: {{ data.email }} :: Contact: {{
+                data.contact }}</li>
         </ul>
     </div>
 </template>
@@ -25,17 +24,17 @@ export default {
                 {
                     name: "Jack",
                     email: "jack002@gmail.com",
-                    contact: +94245555521,
+                    contact: +1245555521,
                 },
                 {
                     name: "Stark",
                     email: "starkk002@gmail.com",
-                    contact: +94245555521,
+                    contact: +1245555521,
                 },
                 {
                     name: "Tony",
                     email: "tony002@gmail.com",
-                    contact: +94245555521,
+                    contact: +1245555521,
                 },
             ],
         }
