@@ -1,12 +1,16 @@
 <template>
-    <h1 id="pages2">If Else Condition</h1>
+    <h1 id="pages2" v-if="display">If Else Condition - display </h1>
+    <h1 id="pages2" v-if="show">If Else Condition - show </h1>
 </template>
   
 <script>
 export default {
     name: 'A7IfElseDemo',
     data() {
-        return {}
+        return {
+            display: true,
+            show: true
+        }
     }
 }
 </script>
